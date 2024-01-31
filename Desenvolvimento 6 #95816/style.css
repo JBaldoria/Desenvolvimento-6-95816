@@ -28,9 +28,9 @@ main {
 }
 
 img {
-  margin: 4px; /* Espaçamento ajustado */
-  border-radius: 50%; /* Borda redonda */
-  width: 25%; /* Redução de 50% em relação à largura anterior */
+  margin: 4px; 
+  border-radius: 50%; 
+  width: 25%; 
 }
 
 .rede-social {
@@ -38,7 +38,7 @@ img {
   margin: 8px;
 }
 
-/* Aplicação das propriedades flexbox */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -51,5 +51,5 @@ ul {
 }
 
 li, .rede-social {
-  margin-left: 12px; /* Espaçamento entre os itens da lista ajustado */
+  margin-left: 12px; 
 }

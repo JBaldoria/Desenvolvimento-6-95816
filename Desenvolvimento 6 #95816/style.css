@@ -1,0 +1,55 @@
+header, footer {
+  background: #6105f5;
+  color: white;
+  padding: 16px;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+#logo-header {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-color: #f5dd08b0;
+  padding: 16px;
+  color: white;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img {
+  margin: 4px; /* Espaçamento ajustado */
+  border-radius: 50%; /* Borda redonda */
+  width: 25%; /* Redução de 50% em relação à largura anterior */
+}
+
+.rede-social {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  margin: 8px;
+}
+
+/* Aplicação das propriedades flexbox */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li, .rede-social {
+  margin-left: 12px; /* Espaçamento entre os itens da lista ajustado */
+}
